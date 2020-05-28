@@ -13,11 +13,11 @@ class Rombo {
   
   // HERENCIA
   class angulo extends Rombo {
-    constructor(lado, dmayor, dmenor, angulo) {
-      // se invoca al super constructor, en este caso es Persona
+    constructor(dmayor, dmenor, angulo) {
+      // se invoca al super constructor, en este caso es Rombo
       super(dmayor, dmenor);
-      // this con los propios atributos de Desarrollador
-      this.area = area;
+      // this con los propios atributos de angulo
+      this.angulo = angulo;
     }
     // métodos
     saludar() {
@@ -41,6 +41,6 @@ class Rombo {
       }
   }
 
-  // INSTANCIA (instancia de Persona)
-  var angulo01 = new Persona(4,5,3);
-  var perimetro01 = new Persona(5,6,3)
+  // INSTANCIA (instancia de Rombo)
+  var angulo01 = new Rombo(4,5,3);
+  var perimetro01 = new Rombo(5,6,3);
