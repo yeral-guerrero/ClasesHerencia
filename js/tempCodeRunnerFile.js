@@ -48,5 +48,3 @@ class Rombo {
   var perimetro01 = new Perimetro(5,6,3);
   perimetro01.perim();
   angulo01.saludar();
-  document.write(`Perimetro ${perimetro01.perim()}`);
-  document.write(`Diagonal Mayor: ${angulo01.saludar()}`);
